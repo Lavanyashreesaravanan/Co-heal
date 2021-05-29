@@ -26,11 +26,15 @@ a:hover {
     color:blue;
 }
 .nav-link {
-    color: rgb(12, 11, 11);
+    color:#ffff;
+    text-align: end;
 }
 
-#nav{
-    position: sticky;
+.nav-item{
+    position:sticky;
+    text-align: end;
+    
+
 }
 
 
@@ -42,8 +46,7 @@ a:hover {
     height: auto;
     min-height: 0px;
     padding-bottom: 0px;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0d41e1));
-    background-image: linear-gradient(150deg, #0c63e7, transparent);
+    background-color: #0a85ed;
     flex-direction: column;
     background-position: 0px opx, 100% 50%;
     background-size: auto, cover;
@@ -64,18 +67,7 @@ a:hover {
     padding-left: 5px;
     padding-right: 5px;
     z-index: 1;
-   /* background-color: blue;
-    -webkit-align-self: auto;
-    -ms-flex-item-align: auto;
-    -ms-grid-row-align: auto;
-    align-self: auto;
-    -webkit-box-ordinal-group: 1;
-    -webkit-order:0;
-    -ms-flex-order: 0;
-    order:0;
-    background-color: transparent;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
-    background-image: linear-gradient(180deg, #1884dd,transparent);*/
+ 
 }
 
 
@@ -126,14 +118,14 @@ a:hover {
      position: relative;
      font-weight: bold;
  }
- /*.navbar-expand-lg .navbar-nav .nav-link.active {
-    
-     color:red;
-   
-}*/
+ 
+
 .dropdown-menu {
     background-color: transparent;
 
+}
+.dropdown-item{
+    color:white;
 }
 .btn {
     background-color: rgb(17, 70, 245);
@@ -148,33 +140,38 @@ a:hover {
    
 }
 
+#navbarSupportedContent{
+    text-align: right;
+    padding-left: 48%;
+}
+
 
 .heading {
     font-size: 5rem;
     font-weight: bold;
     line-height: 1.4;
     text-align: center;
-    color: #114ba1;
-    margin-top: 30px;
-    margin-bottom: 10px;
-    min-height: 190px;
-    padding-top: 10%;
-    padding-bottom: 20%;
-   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
-    background-image: linear-gradient(180deg, #1778c7, #99ecf1);*/
-  
+    color: #ffff;
+    margin-top: 25px;
+    padding-top: 8%;
+   border-radius: 30%;
     
 }
+.headline{
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 260px;
+
+
+}
+
  
 .column-right {
     min-height: 750px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#07c8f9));
-    background-image: linear-gradient(180deg, transparent, transparent);/*, url(aboutus.png);
-    background-position:0px 0px 100% 50% ;
-    background-size: auto, cover;
-    background-attachment:scroll, scroll;
-    object-fit: cover;
-    -o-object-fit: cover;*/
+    background-image: linear-gradient(180deg, transparent, transparent);
 }
 .img-fluid{
    max-width: 100%;
@@ -190,7 +187,7 @@ a:hover {
 .column-left .section-title {
     margin-top: 0px;
     padding: 5rem 2rem 0rem 5rem;
-    font-size: 2.8rem;
+    font-size: 4.3rem;
     color: blue;
     font-weight: bold;
 
@@ -199,50 +196,28 @@ a:hover {
 
 .column-left .paragraph {
     margin-top: 0px;
-    padding: 1rem 5rem 0rem 5rem;
-    font-size: 1.1rem;
+    padding: 0rem 5rem 0rem 5rem;
+    font-size: 1.25rem;
     color:#0d41e1;
    line-height: 1.4;
    text-align: justify;
 }
-/*section {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}*/
-
-.text-centre {
-  
-    font-size: 3rem;
-    font-weight: bold;
-    line-height: 1.4;
-    text-align: center;
-    color: #0c63e7;
 
 
-}
-.card-img  {
-    height: 300px;
-    transition: 1s;
 
-}
-.inner {
-    overflow: hidden;
-}
-.card-img:hover{
-    transform: scale(1.4);
-    transition: 0.2s;
-}
-
-
-.container-fluid-btn {
+.container-fluid-term{
 margin-top: 100px ;
 margin-bottom: 100px;
 margin-left: 20px;
+padding-left: 5%;
+padding-right: 5%;
+border: blue;
+border-radius: 20px;
 }
 
-
+.card-text{
+    text-align: center;
+}
 
 
 .for {
@@ -259,14 +234,14 @@ margin-left: 20px;
 
 #sbtn {
  margin-top: 100px;
- margin-right: 125px;
-margin-left: 125px;
-
+ margin-right: 140px;
+margin-left: 230px;
+border-radius: 30px;
 }
 
 .log{
-    margin-top: 80px;
-    font-size: 3.5rem;
+    margin-top: 0px;
+    font-size: 3.9rem;
     font-weight: bold;
     line-height: 1.2;
     text-align:center;
@@ -276,8 +251,16 @@ margin-left: 125px;
 }
 
 .cord {
-    height:250px
+    height:300px;
+    transition: 1s;
 
+}
+.inner {
+    overflow: hidden;
+}
+.cord:hover{
+    transform: scale(1.4);
+    transition: 0.2s;
 }
 
 .b{
@@ -287,55 +270,44 @@ margin-left: 125px;
 
 
 
-.footer-background {
-    position:static;
-    display: block;
-    overflow: visible;
-    top:0;
-    height: fit-content;
-    min-height: 200px;
-    padding-bottom: 0px;
-    background-color: #0c63e7;
-   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
-    background-image: linear-gradient(180deg,#0c63e7 , transparent);*/
-    flex-direction: column;
-    background-position: 0px opx, 100% 50%;
-    background-size: auto, cover;
-    white-space: normal;
-    object-fit: fill;
-    -o-object-fit:fill;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction:column;
-    -ms-flex-direction: column;
+.footer{
+  
+
+    background-color: blue;
+    background-position: center;
 }
 
 
 .section-title {
     text-align: center;
-    margin-top: 80px;
-    margin-bottom: 60px;
+    margin-top: 100px;
+    margin-bottom: 40px;
     color: white;
     font-size: 3rem;
     font-weight: bold;
-    line-height: 1;
-    
+    padding: 2%;
 
+}
+#img-team{
+    max-height: 100%;
+    padding-top: 5%;
+    padding-right: 5%;
+
+}
+#team{
+    max-height: 700px;
 }
 
 .team-meb {
     text-align: center;
     margin-top: 10px;
     color: white;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: bold;
-    line-height: 1;
-    
+    padding: 0.5%;
+  
 }
-
-
-#gotopbtn {
-    margin-top: 100px;
-    background-color: aqua;
-    color: white;
+#img-linkedin{
+    max-height: 5%;
+    padding-left: 30%;
 }

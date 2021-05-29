@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding:0;
+    font-size: 18px;
+    font-family: 'poppins';
+    line-height: 20px;
+    color:#0c63e7;
+    background-color:#ffffff; 
+}
+
+
+
+a {
+    color: #fff;
+    font-weight: 500;
+
+}
+a:hover {
+    color:blue;
+}
+.nav-link {
+    color: rgb(12, 11, 11);
+}
+
+#nav{
+    position: sticky;
+}
+
+
+.header-background {
+    position:static;
+    display: block;
+    overflow: visible;
+    top:0;
+    height: auto;
+    min-height: 0px;
+    padding-bottom: 0px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0d41e1));
+    background-image: linear-gradient(150deg, #0c63e7, transparent);
+    flex-direction: column;
+    background-position: 0px opx, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit:fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction: column;
+}
+
+.sticky-nav {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    z-index: 1;
+   /* background-color: blue;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    -ms-grid-row-align: auto;
+    align-self: auto;
+    -webkit-box-ordinal-group: 1;
+    -webkit-order:0;
+    -ms-flex-order: 0;
+    order:0;
+    background-color: transparent;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
+    background-image: linear-gradient(180deg, #1884dd,transparent);*/
+}
+
+
+.navbar .navbar-brand a {
+    position: sticky;
+    padding: 1rem 0;
+    display: block;
+    text-decoration: none;
+}
+.navbar-brand {
+    position: sticky;
+    font-size: 2.2rem;
+    color:white;
+
+}
+
+.navbar-toggler {
+    position: sticky;
+   border: none;
+    padding: 10px 6px;
+    outline: none;
+
+}
+.navbar-toggler span {
+    position: sticky;
+    display: block;
+    width: 22px;
+    height: 2px;
+    border: 1px;
+    background:white;
+}
+
+.navbar-toggler span + span {
+    position: sticky;
+    margin-top: 4px;
+    width: 22px;
+ }
+
+ .navbar-toggler span + span +span {
+    position: sticky;
+    width: 22px;
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link {
+    position: sticky;
+     padding: 1.4rem 1rem;
+     font-size: 1.2rem;
+     position: relative;
+     font-weight: bold;
+ }
+ /*.navbar-expand-lg .navbar-nav .nav-link.active {
+    
+     color:red;
+   
+}*/
+.dropdown-menu {
+    background-color: transparent;
+
+}
+.btn {
+    background-color: rgb(17, 70, 245);
+    color: white;
+    border-radius: 10px;
+    padding: 1rem 1.5rem;
+    font-size: 1.2rem;
+}
+.btn:hover {
+    background-color: rgb(60, 99, 226);
+    color: white;
+   
+}
+
+
+.heading {
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #114ba1;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    min-height: 190px;
+    padding-top: 10%;
+    padding-bottom: 20%;
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
+    background-image: linear-gradient(180deg, #1778c7, #99ecf1);*/
+  
+    
+}
+ 
+.column-right {
+    min-height: 750px;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#07c8f9));
+    background-image: linear-gradient(180deg, transparent, transparent);/*, url(aboutus.png);
+    background-position:0px 0px 100% 50% ;
+    background-size: auto, cover;
+    background-attachment:scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;*/
+}
+.img-fluid{
+   max-width: 100%;
+    max-height: 1000px;
+    background-position:0px 0px 100% 50% ;
+    background-size:  cover;
+    background-attachment:scroll, scroll;
+    object-fit: cover;
+    -o-object-fit: cover;
+    margin-top: 20px;
+    image-orientation: flip;
+}
+.column-left .section-title {
+    margin-top: 0px;
+    padding: 5rem 2rem 0rem 5rem;
+    font-size: 2.8rem;
+    color: blue;
+    font-weight: bold;
+
+
+}
+
+.column-left .paragraph {
+    margin-top: 0px;
+    padding: 1rem 5rem 0rem 5rem;
+    font-size: 1.1rem;
+    color:#0d41e1;
+   line-height: 1.4;
+   text-align: justify;
+}
+/*section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}*/
+
+.text-centre {
+  
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #0c63e7;
+
+
+}
+.card-img  {
+    height: 300px;
+    transition: 1s;
+
+}
+.inner {
+    overflow: hidden;
+}
+.card-img:hover{
+    transform: scale(1.4);
+    transition: 0.2s;
+}
+
+
+.container-fluid-btn {
+margin-top: 100px ;
+margin-bottom: 100px;
+margin-left: 20px;
+}
+
+
+
+
+.for {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 1;
+    text-align:center;
+    color: #0d5ace;
+
+
+}
+
+#sbtn {
+ margin-top: 100px;
+ margin-right: 125px;
+margin-left: 125px;
+
+}
+
+.log{
+    margin-top: 80px;
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align:center;
+    color: #1f6de2;
+
+
+}
+
+.cord {
+    height:250px
+
+}
+
+.b{
+    padding: 10px;
+    border-radius:25px;
+}
+
+
+
+.footer-background {
+    position:static;
+    display: block;
+    overflow: visible;
+    top:0;
+    height: fit-content;
+    min-height: 200px;
+    padding-bottom: 0px;
+    background-color: #0c63e7;
+   /* background-image: -webkit-gradient(linear, left top, left bottom, from(#0c63e7));
+    background-image: linear-gradient(180deg,#0c63e7 , transparent);*/
+    flex-direction: column;
+    background-position: 0px opx, 100% 50%;
+    background-size: auto, cover;
+    white-space: normal;
+    object-fit: fill;
+    -o-object-fit:fill;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction:column;
+    -ms-flex-direction: column;
+}
+
+
+.section-title {
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    
+
+}
+
+.team-meb {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1;
+    
+}
+
+
+#gotopbtn {
+    margin-top: 100px;
+    background-color: aqua;
+    color: white;
+}

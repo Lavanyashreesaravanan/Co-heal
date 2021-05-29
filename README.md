@@ -22,5 +22,5 @@
     3.password varchar(11)
     4.dt  datetime
 
-  4. Now run the link http://localhost/co-heal/home.html in your browser
+  4. Now run the link http://localhost/co-heal/home/home.html in your browser
   

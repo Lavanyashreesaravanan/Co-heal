@@ -140,14 +140,12 @@ a:hover {
    
 }
 
-/*#navbarSupportedContent{
+#navbarSupportedContent{
     text-align: right;
-    padding-left: 10%;
-}*/
-
-a:link {
-    text-decoration: none;
+    padding-left: 40%;
 }
+
+
 .heading {
     font-size: 5rem;
     font-weight: bold;
